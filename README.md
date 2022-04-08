@@ -1,3 +1,3 @@
 # zengyee.github.io/zengyee
 
-# haha
+[stock](/stock)
