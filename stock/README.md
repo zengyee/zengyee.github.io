@@ -10,7 +10,7 @@
 
 # 需要课题
 - P2 完全换手率的周期哪一个更好？ 需要比较100,161.8,200，不急，先按100的来进行预测，以后再微调
-- P1 ![课题1： 完全换手的必要性](完全换手的必要性)，比较数值的差别和趋势，看看哪一个更合理
+- P1 [课题1： 完全换手的必要性](完全换手的必要性)，比较数值的差别和趋势，看看哪一个更合理
   - 5日成本价
   - 20日成本价
   - 完全换手成本价
@@ -54,3 +54,17 @@
 `vol_sum` INT,
 `amount_sum` INT,
 ```
+
+## [talib 的指标](./talib)
+
+
+* [Overlap Studies 重叠研究](func_groups/overlap_studies.md)
+* [Momentum Indicators 动量指标](func_groups/momentum_indicators.md)
+* [Volume Indicators 成交量指标](func_groups/volume_indicators.md)
+* [Volatility Indicators 波动性指标](func_groups/volatility_indicators.md)
+* [Price Transform 价格指标](func_groups/price_transform.md)
+* [Cycle Indicators 周期指标](func_groups/cycle_indicators.md)
+* [Pattern Recognition 形态识别](func_groups/pattern_recognition.md)
+* [Statistic Functions 统计函数](func_groups/statistic_functions.md)
+* [Math Transform 数学变换](func_groups/math_transform.md)
+* [Math Operators 数学运算符](func_groups/math_operators.md)
