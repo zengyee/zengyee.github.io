@@ -57,7 +57,6 @@
 
 ## [talib 的指标](./talib)
 
-
 * [Overlap Studies 重叠研究](func_groups/overlap_studies.md)
 各种移动平均MA的计算，计划： 以完全换手的周期来MA（RealPrice,ClosedPrice，high,low,close）
 * [Momentum Indicators 动量指标](func_groups/momentum_indicators.md)
@@ -73,17 +72,22 @@ useless
 中位数价格 。。。
 * [Cycle Indicators 周期指标](func_groups/cycle_indicators.md)
 值得研究一下
-
 * [Pattern Recognition 形态识别](func_groups/pattern_recognition.md)
 useless
 K线的形态
 * [Statistic Functions 统计函数](func_groups/statistic_functions.md)
 useless
 线性回归函数
-
 * [Math Transform 数学变换](func_groups/math_transform.md)
 useless
 三角函数
 * [Math Operators 数学运算符](func_groups/math_operators.md)
 useless
 向量的加减乘除
+
+## 有用的指标
+### MA
+以完全换手的周期来MA（RealPrice,high,low,close）
+### AD
+
+### [Cycle Indicators 周期指标](func_groups/cycle_indicators.md)
