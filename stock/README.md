@@ -61,27 +61,29 @@
 * [Overlap Studies 重叠研究](func_groups/overlap_studies.md)
 各种移动平均MA的计算，计划： 以完全换手的周期来MA（RealPrice,ClosedPrice，high,low,close）
 * [Momentum Indicators 动量指标](func_groups/momentum_indicators.md)
+useless
 趋势判断的指标，MACD  
-没啥用
 * [Volume Indicators 成交量指标](func_groups/volume_indicators.md)
   * 函数名：AD
 * [Volatility Indicators 波动性指标](func_groups/volatility_indicators.md)
+useless
 以 N 天的指数移动平均数平均後的交易波动幅度
-useless
 * [Price Transform 价格指标](func_groups/price_transform.md)
-中位数价格 。。。
 useless
+中位数价格 。。。
 * [Cycle Indicators 周期指标](func_groups/cycle_indicators.md)
 值得研究一下
 
 * [Pattern Recognition 形态识别](func_groups/pattern_recognition.md)
+useless
 K线的形态
-useless
 * [Statistic Functions 统计函数](func_groups/statistic_functions.md)
-线性回归函数
 useless
+线性回归函数
 
 * [Math Transform 数学变换](func_groups/math_transform.md)
+useless
 三角函数
 * [Math Operators 数学运算符](func_groups/math_operators.md)
+useless
 向量的加减乘除
