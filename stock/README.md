@@ -94,7 +94,7 @@ real = MA(close, timeperiod=30, matype=0)
 ### AD
 ```python
 real = AD(high, low, close, volume)
-
+```
 ### [Cycle Indicators 周期指标](func_groups/cycle_indicators.md)
 ```python
 real = HT_DCPERIOD(close)
