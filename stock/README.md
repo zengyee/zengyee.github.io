@@ -88,6 +88,12 @@ useless
 ## 有用的指标
 ### MA
 以完全换手的周期来MA（RealPrice,high,low,close）
+> real = MA(close, timeperiod=30, matype=0)
 ### AD
-
+> real = AD(high, low, close, volume)
 ### [Cycle Indicators 周期指标](func_groups/cycle_indicators.md)
+> real = HT_DCPERIOD(close)
+> real = HT_DCPHASE(close)
+> inphase, quadrature = HT_PHASOR(close)
+> sine, leadsine = HT_SINE(close)
+> integer = HT_TRENDMODE(close)
