@@ -31,6 +31,17 @@
 ## 课题1： 完全换手的必要性
 ### 相关指标
 
+* 换手率的计算
+  1. 根据历史的换手率数据， 反向计算总量(股)和流通量(股)
+
+  ``` SQL
+  SELECT * FROM stockdb.daily_basic where trade_date='2020-07-2';
+  SELECT turnover_rate, total_share * turnover_rate,turnover_rate_f, float_share * turnover_rate_f FROM stockdb.daily_basic where trade_date='2020-07-2' and ts_code='000001.SZ';
+  SELECT vol / adj_factor * adj_factor_max, amount,adj_factor,adj_factor_max FROM stockdb.daily where trade_date='2020-07-2' and ts_code='000001.SZ';
+
+  ```
+
+  2. 根据adj_factor ， 根据付权的变化，调整总股本的数据
 
 ### 数据库
 ``` sql
