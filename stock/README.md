@@ -72,7 +72,7 @@
 各种移动平均MA的计算，计划： 以完全换手的周期来MA（RealPrice,ClosedPrice，high,low,close）
 * [Momentum Indicators 动量指标](func_groups/momentum_indicators.md)
 useless
-趋势判断的指标，MACD  
+  - 趋势判断的指标，MACD  
 * [Volume Indicators 成交量指标](func_groups/volume_indicators.md)
   * 函数名：AD
 * [Volatility Indicators 波动性指标](func_groups/volatility_indicators.md)
